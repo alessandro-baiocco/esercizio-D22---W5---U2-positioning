@@ -48,13 +48,13 @@ header {
   bottom: 0px;
   background-color: rgba(255, 255, 255, 0.29);
   padding: 5px;
-  position: absolute;
+  position: fixed;
   border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
   border: solid 2px white;
   right: 0px;
 }
 .upCentro {
-  right: -5px;
+  right: 0;
   background-color: rgba(255, 255, 255, 0.29);
   padding: 5px;
   position: fixed;
@@ -67,7 +67,7 @@ header {
   font-size: 0;
 }
 .upSu {
-  right: -5px;
+  right: 0;
   background-color: rgba(255, 255, 255, 0.29);
   padding: 5px;
   position: fixed;
@@ -464,11 +464,5 @@ footer a {
   .social,
   .toTop {
     display: none;
-  }
-}
-@media screen and (max-width: 700px) {
-  .upGiu {
-    position: fixed;
-    right: 0px;
   }
 }
