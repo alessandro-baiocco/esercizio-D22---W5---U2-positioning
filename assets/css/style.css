@@ -30,7 +30,7 @@ header {
   padding: 2em 1.5em;
   position: sticky;
   top: 5px;
-  z-index: 9;
+  z-index: 7;
 }
 
 .imgLeft {
@@ -60,6 +60,7 @@ header {
   position: fixed;
   border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
   border: solid 2px white;
+  z-index: 8;
 }
 
 .upCentro a {
@@ -72,6 +73,7 @@ header {
   position: fixed;
   border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
   border: solid 2px white;
+  z-index: 8;
 }
 .cardMia {
   /* position: relative; */
